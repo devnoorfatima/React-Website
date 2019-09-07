@@ -1,24 +1,31 @@
-import React from 'react';
-import { Nav,Navbar} from 'react-bootstrap';
+// import React from 'react';
+// import { Nav,Navbar,NavItem} from 'react-bootstrap';
+// import { Switch, Route } from 'react-router-dom';
+// import Home from './home';
+// // import Work from './Components/work';
+// import Contact from './contact';
+// function Header() {
+//     return (
+//       <div className="Header">
+//      <Navbar>
+//         <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+//           <Navbar.Collapse>
+//         <Nav className="mr-auto">
+//         <NavItem eventkey={1} href="/">
+//        <Nav.Link href="/">Home</Nav.Link>
+//        </NavItem>
+//        </Nav>
 
-function header() {
-    return (
-      <div className="header">
-      {/* Navbar */}
-      <Navbar bg='light' expand="lg">
-        <Navbar.Brand className='ml-4' href="#home">Amazed</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#work">Work</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-       </Nav>
-       </Navbar.Collapse>
-      </Navbar>
-  
-      </div>
-    );
-  }
-  export default header;
+//        </Navbar.Collapse>
+//        </Navbar>
+//        <div>
+//         <Switch>
+//         <Route exact path='/' component={Home} />
+//         <Route path='/contact' component={Contact} />
+//          </Switch>
+//          </div>
+//       </div>
+//     );
+//   }
+//   export default Header;
   
