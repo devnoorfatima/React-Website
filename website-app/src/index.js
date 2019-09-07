@@ -10,21 +10,18 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
   <Router>
  <Navbar>
-         <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+         <Navbar.Brand href="/">Amazed</Navbar.Brand>
           <Navbar.Collapse>
-         <Nav className="mr-auto">
-         <NavItem eventkey={1} href="/">
+        <Nav className='ml-auto'>
+        <NavItem eventkey={1} href="/">
         <Nav.Link href="/">Home</Nav.Link>
         </NavItem>
-        <NavItem eventkey={1} href="/">
+        <NavItem eventkey={2} href="/work">
         <Nav.Link href="/work">Work</Nav.Link>
         </NavItem>
-        <NavItem eventkey={1} href="/">
+        <NavItem eventkey={3} href="/contact">
         <Nav.Link href="/contact">Contact</Nav.Link>
         </NavItem>
-        
-       
-        
         </Nav>
 
         </Navbar.Collapse>
