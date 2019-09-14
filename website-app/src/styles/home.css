@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+.introduction{
+    font-family: Chilanka;
+    background: url(https://image.freepik.com/free-photo/girl-with-brush-ladder-near-wall_23-2148037911.jpg) no-repeat;
+    background-size: cover;
+}

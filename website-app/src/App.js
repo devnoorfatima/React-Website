@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Home from './Components/home';
+import Introduction from './Components/introduction';
 
 function App() {
   return (
     <div className="App">
-  <Home />
+  <Introduction />
     </div>
   );
 }

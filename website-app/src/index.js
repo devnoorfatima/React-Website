@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav,Navbar,NavItem} from 'react-bootstrap';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
-import Home from './Components/home'
+import Introduction from './Components/introduction'
 import Work from './Components/work'
 import Contact from './Components/contact'
 import * as serviceWorker from './serviceWorker';
@@ -27,7 +27,7 @@ const routing = (
         </Navbar.Collapse>
         </Navbar>
           <Switch>
-         <Route exact path='/' component={Home} />
+         <Route exact path='/' component={Introduction} />
          <Route path='/contact' component={Contact} />
          <Route path='/work' component={Work} />
         </Switch>
