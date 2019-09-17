@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 .intro{
-    font-family: Chilanka;
+    font-family: Poppins;
     background: url(https://image.freepik.com/free-photo/girl-with-brush-ladder-near-wall_23-2148037911.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
@@ -8,6 +8,6 @@
 .font{
     font-size: 20px;
 }
-/* .align{
-    m
-} */
+.align{
+    padding-top: 14em;
+}
