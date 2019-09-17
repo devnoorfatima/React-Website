@@ -1,0 +1,24 @@
+.Contact{
+    background: url(https://image.freepik.com/free-photo/autumn-leaves-bottom-side-pattern_23-2147869506.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(109, 106, 106);
+}
+input{
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    border-radius: 5px;
+}
+.formfield * {
+    vertical-align: middle;
+}
+textarea:focus{
+    outline: none;
+}
+placeholder{
+    color: rgb(109, 106, 106);
+}
