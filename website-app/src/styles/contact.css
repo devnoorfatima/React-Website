@@ -13,12 +13,6 @@ input:focus{
 textarea{
     border-radius: 5px;
 }
-.formfield * {
-    vertical-align: middle;
-}
-textarea:focus{
-    outline: none;
-}
 placeholder{
     color: rgb(109, 106, 106);
 }
